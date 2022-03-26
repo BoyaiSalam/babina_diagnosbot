@@ -1,0 +1,28 @@
+[
+  {
+    "id": "bc8278ad-bc0c-47d9-a749-39a57b3bcbda",
+    "data": [
+      {
+        "text": "fever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9308bf52-769b-4ce7-a197-e41a053c1818",
+    "data": [
+      {
+        "text": "skin problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "id": "b46881a3-59d2-434a-b54a-9a48dd88085c",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hello, Hope you are doing well and safe, Welcome to Babina Hospital, Imphal. Kindly Choose  one option. 1.Health Issue. 2.Report. 3.FAQ 4.Exit."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Kindly choose one option 👇",
+          "replies": [
+            "1.Health Issue.",
+            "2.FAQ",
+            "3.Help Desk",
+            "4.Exit"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hello, Hope you are doing well and safe, Welcome to Babina Hospital, Imphal. Kindly Choose  one option. 1.Health Issue. 2.FAQ. 3.Exit."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
